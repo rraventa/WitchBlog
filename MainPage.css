@@ -3,7 +3,7 @@
 
 @import url(Blocks/new-string/new-string.css);
 
-@import url(Blocks/body/__main-page/body__main-page.css);
+@import url(Blocks/body/main-page/body__main-page.css);
 
 @import url(Blocks/navigation-bar/navigation-bar.css);
 @import url(Blocks/navigation-bar/__logo/navigation-bar__logo.css);
