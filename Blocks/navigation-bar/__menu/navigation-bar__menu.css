@@ -1,0 +1,70 @@
+.navigation-bar__menu {
+    padding: 0 4% 0 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 1441px){
+    .navigation-bar__menu {
+        margin: auto 0;
+        font-size: calc(6px + (16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 767px){
+    .navigation-bar__menu {
+        padding: 0 2%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 767px){
+    .navigation-bar__menu {
+        position: fixed;
+        display: block;
+        background-color: darkslateblue;
+        box-shadow: 0 10px 10px #1d1d3d;
+        border-radius: 5px;
+        top: 76px;
+        transition: all 1s;
+        right: -100px;
+        margin: auto;
+        padding: 0;
+        align-content: center;
+        opacity: 0;
+    }
+
+    .navigation-bar__menu.active {
+        right: 0;
+        opacity: 100%;
+    }
+
+    .navigation-bar__menu li {
+        top: 0;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .navigation-bar__menu li:hover{
+        background-color: #7b65a2;
+        border-radius: 5px;
+    }
+}
+
+.navigation-bar__menu li a {
+    margin: 20px;
+    padding: 0;
+    color: azure;
+    opacity: 70%;
+    text-decoration: none;
+    font-family: "Anime Ace v05", serif;
+    cursor: pointer;
+}
+
+
+.navigation-bar__menu li a:hover {
+    opacity: 100%;
+}

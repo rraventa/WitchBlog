@@ -1,0 +1,17 @@
+.header.astrology {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1)), url("/Images/astrology-img.jpg") no-repeat;
+    background-size: cover;
+}
+
+.header__content.astrology {
+    margin: 20vh auto;
+}
+
+.astrology-table__element p {
+    text-align: justify;
+    margin: auto 3%;
+}
+
+.main-part.astrology {
+    line-height: 1.5;
+}

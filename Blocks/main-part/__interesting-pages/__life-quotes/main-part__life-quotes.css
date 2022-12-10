@@ -1,0 +1,17 @@
+.main-part__life-quotes a{
+    margin: auto;
+    background: rgba(240, 255, 255, 0.51);
+    flex-basis: 100%;
+}
+
+.main-part__life-quotes {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1)),  url("/Images/life-quotes-img.jpg");
+    background-size: cover;
+    position: absolute;
+    inset: 5px;
+    border-radius: 20px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

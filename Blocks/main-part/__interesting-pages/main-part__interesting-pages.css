@@ -1,0 +1,46 @@
+/*.main-part__interesting-pages {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1)), url("/Images/header-alternative-img.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100px;
+}*/
+
+.main-part__interesting-pages {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+
+.main-part__interesting-pages a {
+    padding: 0;
+    color: #1d1d3d;
+    text-decoration: none;
+    font-family: "Anime Ace v05", serif;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+
+.main-part__interesting-pages a:hover {
+    opacity: 100%;
+    color: azure;
+}
+
+a#main-part-interesting-pages__position {
+    padding-top: 50px;
+    margin-top: -50px;
+    display: inline-block;
+}
+
+
+@media (min-width: 769px) and (max-width: 1440px) {
+    .main-part__interesting-pages a {
+        font-size: large;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-part__interesting-pages a{
+        font-size: calc(15px + (10 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+}

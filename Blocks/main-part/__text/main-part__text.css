@@ -1,0 +1,20 @@
+.main-part__text {
+    font-family: "Anime Ace v3", serif;
+    line-height: 2;
+    text-align: justify;
+    margin: auto 5%;
+    color: #1d1d3d;
+}
+
+@media (min-width: 1024px) {
+    .main-part__text {
+        font-size: calc((10 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+
+}
+
+@media (max-width: 1024px){
+    .main-part__text {
+        font-size: calc(10px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+}

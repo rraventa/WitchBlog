@@ -1,0 +1,13 @@
+.header__article {
+    margin: 5vw;
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: "Anime Ace v05", serif;
+    line-height: 2;
+}
+
+@media (max-width: 768px){
+    .header__article {
+        font-size: calc(10px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+}

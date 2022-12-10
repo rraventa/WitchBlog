@@ -1,0 +1,10 @@
+.navigation-bar__menu-icon {
+    width: 40px;
+    margin-right: 20px;
+}
+
+@media (min-width: 767px){
+    .navigation-bar__menu-icon {
+        display: none;
+    }
+}

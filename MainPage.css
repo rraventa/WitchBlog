@@ -1,0 +1,47 @@
+@import url(Fonts/RibeyeMarrow-Regular.css);
+@import url(Fonts/Anime_Ace_v3.css);
+
+@import url(Blocks/new-string/new-string.css);
+
+@import url(Blocks/body/__main-page/body__main-page.css);
+
+@import url(Blocks/navigation-bar/navigation-bar.css);
+@import url(Blocks/navigation-bar/__logo/navigation-bar__logo.css);
+@import url(Blocks/navigation-bar/__menu/navigation-bar__menu.css);
+@import url(Blocks/navigation-bar/__menu-icon/navigation-bar__menu-icon.css);
+
+@import url(Blocks/header/header.css);
+@import url(Blocks/header/__content/header__content.css);
+@import url(Blocks/header/__title/header__title.css);
+@import url(Blocks/header/__subtitle/header__subtitle.css);
+@import url(Blocks/header/__article/header__article.css);
+
+@import url(Blocks/article/article.css);
+@import url(Blocks/article/__author/article__author.css);
+@import url(Blocks/article/__quote/article__quote.css);
+
+@import url(Blocks/main-part/main-part.css);
+@import url(Blocks/main-part/__about-me/__img/main-part__img.css);
+@import url(Blocks/main-part/__text/main-part__text.css);
+@import url(Blocks/main-part/__about-me/main-part__about-me.css);
+@import url(Blocks/main-part/__interesting-pages/main-part__interesting-pages.css);
+@import url(Blocks/main-part/__title/main-part__title.css);
+@import url(Blocks/main-part/__background/main-part__background.css);
+
+@import url(Blocks/main-part/__interesting-pages/__travels/main-part__travels.css);
+@import url(Blocks/main-part/__interesting-pages/__astrology/main-part__astrology.css);
+@import url(Blocks/main-part/__interesting-pages/__life-quotes/main-part__life-quotes.css);
+
+@import url(Blocks/main-part/__interesting-pages/__religion/main-part__religion.css);
+@import url(Blocks/main-part/__interesting-pages/__border/main-part__border.css);
+
+@import url(Blocks/footer/__main-page/footer__main-page.css);
+@import url(Blocks/footer/__contacts-table/footer__contacts-table.css);
+@import url(Blocks/footer/__contacts-table/__table-element/footer__table-element.css);
+
+@import url(Blocks/footer/__page-load/footer__page-load.css);
+
+html {
+    scroll-behavior: smooth;
+}
+

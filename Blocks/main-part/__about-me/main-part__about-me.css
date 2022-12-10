@@ -1,0 +1,4 @@
+.main-part__about-me {
+    display: flex;
+    flex-wrap: nowrap;
+}

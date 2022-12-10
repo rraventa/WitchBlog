@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Цитаты о жизни (а может просто из)</title>
+    <link href="DopPage.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!--<link href="checker.css" rel="stylesheet">-->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="поездки, путешествия">
+    <meta name="description" content="что-то о некоторых уголках мира">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="Blocks/dop-page-nav/dop-pages-nav.js"></script>
+</head>
+
+<body class="body__main-page dop-page-nav">
+
+<script src="Blocks/navigation-bar/__menu/navigation-bar__menu.js"></script>
+<nav class="navigation-bar dop-page-nav">
+    <img class="navigation-bar__logo dop-page-nav" src="Images/cat-logo.png" alt="cat logo">
+    <ul class="navigation-bar__menu dop-page-nav">
+        <li><a href="MainPage.html">Домой</a></li>
+        <li><a href="TravelsPage.html">Поездки и путешествия</a></li>
+        <li><a href="AstrologyPage.html">Астрология и гороскопы</a></li>
+        <li><a href="LifeQuotesPage.html">Цитаты из жизни</a></li>
+        <li><a href="ReligionPage.html">Религия кусь!</a></li>
+    </ul>
+    <script src="Blocks/navigation-bar/__menu-icon/navigation-bar__menu-icon.js"></script>
+    <img class="navigation-bar__menu-icon dop-page-nav" src="Images/menu.png" alt="menu icon">
+</nav>
+
+<header class="header life-quotes">
+    <div class="header__content life-quotes">
+        <h1 class="header__title">Life quotes</h1>
+        <h2 class="header__subtitle">add your own</h2>
+    </div>
+</header>
+
+<main class="main-part life-quotes">
+    <script src="Blocks/life-quotes/life-quotes.js"></script>
+    <form class="life-quotes-form">
+        <input
+                    type="text"
+                    class="main-part__text quote-input"
+                    placeholder="Enter a nice quote" />
+        <input
+                type="submit"
+                class="main-part__text quote-submit"
+                value="Add quote!" />
+    </form>
+    <section class="life-quotes-list">
+        <h2 class="main-part__title life-quotes">Your Quotes</h2>
+        <div class="quotes"></div>
+    </section>
+</main>
+
+</body>
+</html>

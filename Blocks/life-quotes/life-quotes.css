@@ -1,0 +1,103 @@
+.header.life-quotes {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1)), url("/Images/life-quotes-back-img.jpg") no-repeat;
+    background-size: cover;
+}
+
+.header__content.life-quotes {
+    margin: 20vh auto;
+}
+
+.main-part.life-quotes {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.life-quotes-form {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-input {
+    margin: auto 2%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(188, 170, 222, 0.62));
+    min-width: 50vw;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.quote-submit {
+    margin: auto 0;
+    background: rgba(222, 170, 204, 0.66);
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.main-part__title.life-quotes {
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    background: #7b65a2;
+    margin: 0;
+    min-width: 50vw;
+    border-radius: 10px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.input-text {
+    margin: auto 0;
+    color: #dfdffd;
+    padding: 0 0 0 5%;
+    font-family: "Anime Ace v3", serif;
+    font-size: calc(10px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    min-width: 90%;
+}
+
+.quotes {
+    color: #0e0d24;
+    font-family: "Anime Ace v05", serif;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    min-width: 20vw;
+}
+
+.edit, .remove {
+    margin: auto 0;
+    color: #0e0d24;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(188, 170, 222, 0.62));
+    padding: 3%;
+    border-radius: 10px;
+    font-size:  calc(10px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    font-family: "Anime Ace v3", serif;
+}
+
+@media (min-width: 1024px) {
+    .edit, .remove, .input-text {
+        font-size: calc((15 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+
+}
+
+@media (max-width: 1024px){
+    .actions  {
+        font-size: calc(8px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+}

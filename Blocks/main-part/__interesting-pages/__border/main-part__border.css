@@ -1,0 +1,64 @@
+.main-part__border {
+    position: relative;
+    width: 20%;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 2%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main-part__border::before {
+    content: "";
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background-image: conic-gradient(transparent, transparent, transparent, #deaacc);
+    animation: rotate-border 5s linear infinite;
+}
+
+.main-part__border::after {
+    content: "";
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background-image: conic-gradient(transparent, transparent, transparent, #bcaade);
+    animation: rotate-border 5s linear infinite;
+    animation-delay: -2.5s;
+}
+
+.main-part__border .div {
+    position: absolute;
+    inset: 3px;
+    border-radius: 20px;
+    background: white;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes rotate-border {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main-part__border {
+        width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-part__border {
+        width: 70%;
+        height: 180px;
+    }
+}

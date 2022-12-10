@@ -1,0 +1,9 @@
+.new-string {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .new-string {
+        display: none;
+    }
+}

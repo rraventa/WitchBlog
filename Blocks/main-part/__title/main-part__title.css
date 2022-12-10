@@ -1,0 +1,27 @@
+.main-part__title {
+    font-size: xx-large;
+    text-transform: uppercase;
+
+    font-family: "RibeyeMarrow-Regular", serif;
+    background-image: linear-gradient(to right, #E3535D, #351a57 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 1440px) {
+    .main-part__title {
+        font-size: calc((25 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+}
+
+@media (max-width: 768px) {
+    .main-part__title {
+        font-size: calc(22px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+}
+
+a#main-part-title__position {
+    padding-top: 50px;
+    margin-top: -50px;
+    display: inline-block;
+}

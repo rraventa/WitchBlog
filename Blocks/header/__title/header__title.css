@@ -1,0 +1,15 @@
+.header__title {
+    font-size: xxx-large;
+}
+
+@media (min-width: 1440px) {
+    .header__title {
+        font-size: calc(16px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+}
+
+@media (max-width: 768px) {
+    .header__title {
+        font-size: calc(40px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+}

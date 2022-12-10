@@ -1,0 +1,9 @@
+.main-part__img {
+    width: 35%;
+}
+
+@media (max-width: 1024px){
+    .main-part__img {
+        display: none;
+    }
+}

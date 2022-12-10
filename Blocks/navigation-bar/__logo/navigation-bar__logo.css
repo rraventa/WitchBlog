@@ -1,0 +1,10 @@
+.navigation-bar__logo {
+    width: 60px;
+    margin: 0.5% 0 0.5% 5%;
+}
+
+@media (max-width: 805px) {
+    .navigation-bar__logo {
+        display: none;
+    }
+}
